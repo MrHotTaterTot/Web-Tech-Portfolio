@@ -1,0 +1,429 @@
+/* Blog.php-css */
+body#whole_blog{
+    background-color: #eeeee4;
+    font-family: 'Trebuchet MS', sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+article#blog{
+    background-color: white;
+    width: 10%;
+}
+
+section#addPost{
+    position: absolute;
+    top: 6em;
+    left: 10%;
+    width: 35%;
+    border: rgb(40, 77, 126) 5px solid;
+    padding: 1em;
+}
+section#addPost button{
+    margin-left: 11em;
+    font-size: 1.75em;
+    text-align: center;
+    font-weight: bold;
+
+}
+section#Form label{
+    font-size: 1.25em;
+    margin-top: 1em;
+    font-weight: bold;
+}
+section#Form input{
+    border: black solid 2px;
+    margin-bottom: 1em;
+    width: 130px;
+    height: 35px;
+}
+section#Form input.button{
+    margin-left: 2%;
+}
+section#Form textarea{
+    border: black solid 2px;
+    resize: none;
+    margin-bottom: 1em;
+    font-size: 16px;
+    font-weight: bold;
+}
+section#Form button{
+    border: 2px black solid;
+    width: 130px;
+    height: 35px;
+}
+article#Blog_entries{
+    position: absolute;
+    top: 5em;
+    right: 12.5%;
+    width: 35%;
+}
+article#Blog_entries .date{
+    text-align: right;
+    font-size: 18px;
+    padding-bottom: 1em;
+}
+article#Blog_entries .title{
+    text-align: center;
+    font-size: 32px;
+    padding-bottom: 1em;
+}
+
+article#Blog_entries .text{
+    text-align: left;
+    font-size: 22px;
+    padding-bottom: 1em;
+}
+
+header#Blog_Header{
+    text-align: center;
+    margin-top: 1em;
+    font-size: 36px;
+    border: rgb(120, 171, 238) 5px solid;
+    background-color: aqua;
+}
+table#Posts{
+    margin-top: 2em;
+    margin-bottom: 10em;
+}
+div#line{
+    position: absolute;
+    left: 50%;
+    border-left: 3px solid rgb(120, 171, 238);
+    height: 70em;
+}
+footer#Contact{
+    position: fixed;
+    bottom: 0em;
+    float: bottom;
+    background-color: aqua;
+    width: 78%;
+    padding: 1em;
+    border: rgb(120, 171, 238) 3px solid ;
+    margin-top: 10em;
+}
+footer#Contact hgroup h4, h5{
+    padding-bottom: 0.5em;
+}
+
+/* addPost.html - css */
+
+body#addPost{
+    background-color: #eeeee4;
+    font-family: 'Trebuchet MS', sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 6%;
+}
+div#All label{
+    font-size: 1.75em;
+    font-weight: bold;
+    color: white;
+}
+div#All input#Title{
+    background-color: aquamarine;
+    width: 45%;
+    margin-bottom: 2em;
+    border: 3px dotted black;
+}
+body#addPost p#title{
+    font-size: 2.75em;
+    font-weight: bold;
+    margin-bottom: 1em;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 3px solid black;
+    background-color: aquamarine;
+}
+form#addingPost{
+    text-align: center;
+    margin-left: 33%;
+    border: 4px solid rgb(90, 48, 241);
+    margin-right: 33%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #333333;
+}
+div#All button{
+    margin-left: 1em;
+    margin-top: 1em;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+button#reset{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+div#All textarea{
+    resize: none;
+    border: 3px dotted black;
+    background-color: aquamarine;
+    font-size: 150%;
+    height: 75%;
+    width: 75%;
+}
+
+
+
+
+/* login.html-css */
+body#all{
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 15%;
+    text-align: center;
+    border: 5px solid black;
+
+}
+form#login{
+    background-color: rgb(90, 48, 241);
+    padding-bottom: 1em;
+    padding: 1em 0px 1em 0px ;
+}
+input#email, input#password{
+    border: 2px black solid;
+    width: 75%;
+}
+body#all label{
+    color: aliceblue;
+    font-size: large;
+}
+body#all #error{
+    color: white;
+    padding-bottom: 1em;
+}
+
+
+
+
+
+
+/* Navigation bar - css*/
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    border: 5px solid rgba(14, 72, 158, 0.979);
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    display: block;
+    color: darkorange;
+    text-align: center;
+    padding: 1em;
+    text-decoration: none;
+}
+nav ul li:hover{
+    background-color: grey;
+}
+header p{
+    background-color: #333333;
+    font-size: 3.5em;
+    text-align: center;
+    color: aliceblue;
+    border-top: rgba(14, 72, 158, 0.979) solid 5px;
+    border-right: rgba(14, 72, 158, 0.979) solid 5px;
+    border-left: rgba(14, 72, 158, 0.979) solid 5px;
+
+}
+
+
+
+
+
+
+/* Main.html - css*/
+body#main{
+    background-image: url('background.jpg');
+    background-size: cover;
+}
+footer#Socials ul{
+    list-style-type: none;
+    overflow: hidden;
+    padding-left: 0px;
+    font-size: 2em;
+}
+footer#Socials ul li{
+    padding-top: 32%;
+    float: left;
+    padding-left: 22%;
+}
+section#Main-middle figure{
+    position: absolute;
+    left: 45%;
+    top: 25%;
+}
+section#Main-middle h2{
+    color: aliceblue;
+    font-size: 2em;
+    text-align: center;
+    width: 25%;
+    position: absolute;
+    top: 34%;
+    left: 26%;
+}
+section#Main-middle button#Login{
+    height: 50px;
+    width: 90px;
+    position: absolute;
+    top: 45%;
+    left: 36%;
+    font-size: large;
+}
+
+
+
+
+
+/* Education.html - css*/
+body#Education{
+    background-color: #eeeee4;
+}
+article#All_education li, article#All_education td, article#All_education p{
+    font-size: 130%;
+}
+article#All_education{
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+section#EducationPlaces table{
+    table-layout:fixed;
+}
+section#EducationPlaces{
+    text-align: center;
+    opacity: 75%;
+}
+section#EducationPlaces h3{
+    font-size: 48px;
+}
+section#EducationPlaces p{
+    font-size: 24px;
+    padding: 8px;
+}
+section#Skills table{
+    border: #333333 solid 2px;
+    border-collapse: collapse;
+    background-color: lightcyan;
+    float: left;
+    height: 200px;
+    margin-left: 15px ;
+}
+section#Skills table td, section#Skills table th{
+    border: black solid 2px;
+    padding: 5px;
+    width: 25px;
+}
+.beginner{
+    color: rgba(255, 0, 0, 0.644);
+}
+.Intermidiate{
+    color: rgba(255, 196, 0, 0.822);
+}
+.Advanced{
+    color: rgb(0, 175, 0);
+}
+section#Skills ol{
+    list-style-type: none;
+    margin-top: -15px;
+    padding-left: 15em;
+}
+section#Skills ol li{
+    padding: 5px;
+}
+section#Skills h3{
+    font-size: 48px;
+    text-align: center;
+    opacity: 75%;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+/* My information.html - css */
+body#Information{
+    background-color: #eeeee4;
+}
+article#Information{
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: white;
+}
+section#About_myself figure{
+    float: left;
+    margin-left: 7%;
+}
+section#About_myself h3{
+    font-size: 44px;
+    padding-top: 25px;
+    text-align: center;
+}
+section#About_myself p{
+    font-size: 26px;
+    text-align: center;
+    margin-right: 30px;
+}
+article#Experience{
+    padding-top: 17%;
+    font-size: 26px;
+    font-family: "Times New Roman", Times, serif;
+}
+article#Experience h3{
+    font-size: 44px;
+    text-align: center;
+}
+article#Experience table tr td{
+    width: 15%;
+    padding: 20px;
+}
+article#Experience table{
+    border-collapse: collapse;
+}
+#first{
+    border-right: #3333335e solid 2px;
+}
+#second{
+    border-right: #3333335e solid 2px;
+    border-left: #3333335e solid 2px;
+}
+
+#last{
+    border-left: #3333335e solid 2px;
+
+}
+
+
+
+
+
+/* Projects.html */
+article#Projects{
+    color: #eeeee4;
+    margin-left: 17%;
+}
+article#Projects figure{
+    float: left;
+    color: bisque;
+}
+article#Projects aside{
+    width: 50%;
+    font-size: 22px;
+    text-align: center;
+    padding-left: 15%;
+    padding-top: 2%;
+    color: aquamarine;
+}
+article#Projects h1{
+    font-size: 44px;
+    color: aqua;
+}
+article#Projects p.add{
+    font-size: 16px;
+    color: #3333335e;
+}

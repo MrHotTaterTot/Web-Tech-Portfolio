@@ -1,0 +1,10 @@
+html, body, div, span, object, h1, h2, h3, h4, h5, h6, p
+, section, article, hgroup, nav, header, footer, acronym
+, code,table,td,th,input,label,ul,li,a,ol{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
